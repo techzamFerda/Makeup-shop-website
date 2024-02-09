@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Open+Sans&display=swap');
+@charset "utf-8";
+body,html{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Bebas Neue', cursive;
+	
+}
+.cookie-message {
+    width: 50%;
+    background-color:rgba(223,26,148,0.77);
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 1;
+}
+
+
+.cookie-message button{
+	width:100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 0px;background-color: rgba(239,131,191,1.00);
+}
+#cookieP{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	font-size: 13px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bar-hamburger{
+	color:white;
+	background-color:black;
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	
+	
+
+}
+.bar-hamburger a{
+	color:white;
+}
+.bar-hamburger i{
+	margin-right: 5px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+header{
+	
+	background-image: url(../img/face2.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+.main-menu{
+	background-color: white;
+	position: fixed;
+	width:50%;
+	left:-600px;
+	height: 100%;
+
+}
+.main-menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+.main-menu ul li a{
+	width: 88%;
+	text-align: left;
+	display: inline-block;
+	padding:  30px 21px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+    font-family: 'Bebas Neue', cursive;
+	
+	
+
+}
+
+.elementen{
+	display: flex;
+    flex-wrap: wrap;	
+}
+.elementen img{
+	width: 100px;
+	text-align: center;
+	margin: auto;
+}
+
+
+.content h2, p{
+	width:100%;
+	text-align: center;
+}
+.content{
+	width:100%;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: solid rgba(204,202,202,0.94) 0px;
+	padding:10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	
+}
+.content1{
+	background:#D90A98;
+}
+.content2{
+	background-color:#C96707;
+}
+.content3{
+	background-color: #BC07B6;
+}
+#backgroundAboutVideo{
+	display: none;
+}
+faceMakeup1{
+	float: right;
+	margin: 10px;
+	width:62%;
+	background-image: url(../img/face4.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+#viewport-video{
+	display: flex;
+
+}
+
+.imgVideo{
+	background-image: url(../img/makeup-2-1.jpg);
+	height:350px;
+	width: 48%;
+	background-size: cover;
+	background-position: center;
+	margin-right: 3px;
+}
+
+.imgVideo2{
+	background-image: url(../img/makeup-2.jpg);
+	height:350px;
+	width: 48%;
+	background-size: cover;
+	background-position: center;
+}
+
+
+footer{
+	background-color: black;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.socialMedia{
+	font-size:20px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.socialMedia i{
+	color:white;
+}
+.bankKarten{
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	
+}
+.bankKarten i{
+	font-size: 20px;
+	margin:0px 3px;
+}
+button{
+  background-color:rgba(203,19,139,1.00);
+	text-align: center;
+	border: none;
+	border-radius: 15px;
+	padding: 20px;
+    font-size: 20px;
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+#copyRight{
+	width: 100%;
+	text-align: center;
+}
+@media only screen and (min-width: 650px){ 
+	
+	.cookie-message {
+    width: 300px;
+   
+   
+    
+   
+}
+
+
+
+.cookie-message button{
+	width:100%;
+	height: auto;
+	text-align: center;
+}
+
+	.banner{
+		display: flex;
+	}
+	.bar-hamburger{
+		background-color:transparent;
+		width:48%;
+		
+	}
+	.bar-hamburger i{
+	margin-right: 0px;
+	font-size: 25px;
+	padding: 5px;
+}
+	.main-menu{
+	position: inherit;
+	width:49%;
+	background-color:transparent;
+	
+	
+	
+}
+.main-menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	
+	
+	
+}
+.main-menu ul li a{
+	width: 88%;
+	text-align: left;
+	display: inline-block;
+	padding:20px 6px;
+	margin-left: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color:white;
+    font-family: 'Bebas Neue', cursive;
+	
+	
+
+}
+
+	#hamburger-icon{
+		display: none;
+	}
+	
+.faceMakeup1{
+	float: right;
+	margin: 10px;
+	width:62%;
+	background-image: url(../img/face4.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+.faceMakeup2{
+	margin: 10px;
+	width:35%;
+	background-image: url(../img/face.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	
+}
+.elementen{
+margin: auto;
+		
+}
+.content{
+	width:42%;
+	border: solid rgba(204,202,202,0.94) 0px;
+}
+
+footer{
+	
+	background-color: black;
+	color:white;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.socialMedia{
+	font-size:20px;
+}
+
+.socialMedia i{
+	color:white;
+}
+.bankKarten{
+	font-size: 20px;
+	
+}
+.bankKarten i{
+	font-size: 20px;
+	margin:0px 3px;
+}
+button{
+  background-color:rgba(203,19,139,1.00);
+	text-align: center;
+	border: none;
+	border-radius: 15px;
+	padding: 20px;
+    font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+#copyRight{
+	width: 100%;
+	text-align: center;
+}
+
+}
+footer{
+	
+	background-color: black;
+	color:white;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.socialMedia{
+	font-size:20px;
+	width:33%;
+}
+
+.socialMedia i{
+	color:white;
+}
+.bankKarten{
+	font-size: 20px;
+	width:33%;
+}
+.bankKarten i{
+	font-size: 20px;
+	margin:0px 3px;
+}
+button{
+  background-color:rgba(203,19,139,1.00);
+	text-align: center;
+	border: none;
+	border-radius: 15px;
+	padding: 20px;
+    font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+#copyRight{
+	width: 100%;
+	text-align: center;
+}
+@media only screen and (min-width: 1000px){ 
+
+.main-menu ul li a{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	display:inline-block;
+	text-decoration: none;
+	color:white;
+	font-size:22px;
+	
+}
+.search_input{
+	border-radius: 20px;
+	float: right;
+	border: 0px;
+	width: 200px;
+	padding: 5px;
+	
+}
+header{
+height: 400px;
+background-image: url(../img/face2.jpg) ;
+background-position: center;
+background-size: cover;
+
+}
+
+.faceMakeup1{
+	margin-left:10px;
+	width:60%;
+	background-image: url(../img/face4.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+
+.faceMakeup2{
+	margin-right:10px;
+	width:37%;
+	background-image: url(../img/face.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	
+}
+.elementen{
+	display: flex;
+    flex-wrap: wrap;
+	
+	
+}
+.elementen img{
+	width: 100px;
+}
+
+
+.content h2, p{
+	width:100%;
+	text-align: center;
+}
+.content{
+	width:22%;
+	margin: auto;
+	margin-bottom: 10px;
+	border: solid rgba(204,202,202,0.94) 0px;
+	padding:10px;
+	display:flex;
+	justify-content: center;
+	color: aliceblue;
+    flex-wrap: wrap;
+	align-items: center;
+	  /*background-color:rgba(203,19,139,1.00);*/
+	
+}
+.content1{
+	background:#D90A98;
+}
+.content2{
+	background-color: #C96707;
+}
+.content3{
+	background-color: #BC07B6;
+}
+#viewport-video{
+	width:100%;
+	margin: 10px;
+	display: flex;
+	margin-left: 10px;
+	margin: auto;
+	
+}
+#backgroundAboutVideo{
+	display: block;
+	background: url(../video/make up.mp4) no-repeat;
+	background-size: cover; 
+    width:40%;
+	-webkit-box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75);
+	margin: auto;
+	
+}
+
+.imgVideo{
+	background-image: url(../img/makeup-2-1.jpg);
+	height:350px;
+	width: 27%;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.imgVideo2{
+	background-image: url(../img/makeup-2.jpg);
+	height:350px;
+	width: 27%;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+
+
+
+}

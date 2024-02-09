@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
+@import url("css/lipStyle.css");
+header{
+	
+	background-image: url(../img/77.png);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+	
+	
+}
+
+.cookie-message {
+    width: 50%;
+    background-color:rgba(223,26,148,0.77);
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 1;
+}
+
+#cookieP{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	font-size: 13px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+	margin-left: 100px;
+	margin-top: 80px;
+	font-size: 70px;
+	color: #747474;
+	
+}
+.bar-hamburger {
+	color: #747474;
+}
+
+.bar-hamburger a{
+	color: #747474;
+}
+
+.main-menu ul li a{
+	color: #747474;
+}
+.faceProducts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 1;
+}
+.faceProducts h1{
+	width: 100%;
+	text-align: center;
+	
+}
+.product{
+	width: 100%;
+	margin: 10px;
+	background-color:#FFD8D2;
+	border:#E4C3BE solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+.product img{
+	width: 200px;
+	z-index: 10;
+	
+}
+
+.product h4,p{
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	color: #747474;
+	
+}
+
+.product button{
+	width: 50%;
+	z-index: 10;
+	background-color:#E4C3BE ;
+	
+}
+
+.product button:hover{
+	
+	background-color:rgba(224,248,117,1.00);
+	
+}
+footer button{
+	background-color:#747474;
+}
+
+footer button a{
+	color:white;
+	text-decoration: none;
+}
+@media only screen and (min-width: 650px){ 
+		.cookie-message {
+    width: 300px;
+   
+   
+    
+   
+}
+
+
+
+.cookie-message button{
+	width:100%;
+	height: auto;
+	text-align: center;
+}
+	
+header h1{
+	margin-left: 300px;
+	margin-top: 30px;
+	font-size: 100px;
+	color: #747474;
+	
+}
+
+.product{
+	width: 30%;
+	margin: 10px;
+	background-color:#FFD8D2;
+	border:#E4C3BE solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+
+}
+
+

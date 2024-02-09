@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+header{
+	background-image: url(../img/eyeshadow.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#p1{
+	width: 40px;
+}
+
+#p2{
+	width: 60px;
+}
+
+.eyeProducts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+.eyeProducts h1{
+	width: 100%;
+	text-align: center;
+	
+}
+.product{
+	width: 100%;
+	margin: 10px;
+	background-color:#F39AE2;
+	border:#4B86EF solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+
+.product img{
+	width: 200px;
+	z-index: 10;
+	
+}
+
+.product h4,p{
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	color: #747474;
+	
+}
+
+.product button{
+	width: 50%;
+	z-index: 10;
+	background-color:#4B86EF;
+	
+}
+
+.product button:hover{
+	
+	background-color:#FBA1DE;
+}
+footer button{
+	background-color:#4B86EF;
+}
+
+footer button a{
+	color:white;
+	text-decoration: none;
+
+}
+
+
+@media only screen and (min-width: 650px){ 
+
+.product{
+	width: 30%;
+	margin: 10px;
+	background-color:#F39AE2;
+	border:#4B86EF solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+	
+}

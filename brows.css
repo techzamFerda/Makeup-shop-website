@@ -1,0 +1,123 @@
+@charset "utf-8";
+header{
+	background-image: url(../img/browsHeader.jpg);
+	background-position: top;
+	color: rgba(0,0,0,1.00);
+}
+
+header h1{
+	margin-left: 300px;
+	margin-top: 200px;
+	font-size: 60px;
+	color:black;
+	
+}
+.main-menu ul li a{
+	color : black;
+}
+.bar-hamburger{
+	color : white;
+}
+.bar-hamburger a{
+	color : white;
+}
+
+.browsProducts{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 1;
+}
+.browsProducts h1{
+	width: 100%;
+	text-align: center;
+	
+}
+.product{
+	width: 100%;
+	margin: 10px;
+	background-color:#FFD8D2;
+	border:#E4C3BE solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+.product img{
+	width: 200px;
+	z-index: 10;
+	
+}
+
+.imgSize{
+	width:50px;
+}
+
+#img3{
+	width:50px;
+}
+
+#img4{
+	width:50px;
+}
+
+.product h4,p{
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	color: #747474;
+	
+}
+
+.product button{
+	width: 50%;
+	z-index: 10;
+	background-color:#E4C3BE ;
+	
+}
+
+.product button:hover{
+	
+	background-color:rgba(224,248,117,1.00);
+	
+}
+
+@media only screen and (min-width: 650px){ 
+.product{
+	width: 30%;
+	margin: 10px;
+	background-color:#FFD8D2;
+	border:#E4C3BE solid 6px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	font-family: 'Noto Sans TC', sans-serif;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+
+.bar-hamburger{
+	color : black;
+}
+.bar-hamburger a{
+	color : black;
+}
+	
+header h1{
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 100px;
+	color: black;
+	
+}
+}
